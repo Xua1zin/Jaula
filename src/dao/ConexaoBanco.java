@@ -14,10 +14,10 @@ public class ConexaoBanco {
     private String senha;
     private Connection conexao;   
     public ConexaoBanco() {
-        this.servidor = "200.195.171.122";
-        this.banco = "grupo13_joao";
-        this.usuario = "grupo13";
-        this.senha = "lH6koUBeSyyvRCh4";
+        this.servidor = "IP DO SERVER";
+        this.banco = "NOME DO BANCO";
+        this.usuario = "USUARIO DO BANCO";
+        this.senha = "SENHA DO BANCO";
     }
     public boolean conectar(){
         try
